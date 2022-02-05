@@ -24,7 +24,7 @@
             <StackPanel Width="300" Orientation="Vertical">
                 <TextBox x:Name="emailTextBox"></TextBox>
                 <PasswordBox Name="passwordBox"></PasswordBox>
-                <Button Click="Button_Click">Авторизироваться</Button>
+                <Button Click="Button_Click">Войти</Button>
                 <StackPanel x:Name="userStackPanel" Height="400" Orientation="Vertical">
                     <TextBlock Text="{Binding id}"></TextBlock>
                     <Image Source="{Binding avatar}"></Image>
